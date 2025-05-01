@@ -7,7 +7,6 @@ map<string, Value>
     TempsResults;  // Container of temporary locations of Value objects for
                    // results of expressions, variables values, and constants
 queue<Value> *ValQue = new queue<Value>;
-;
 
 namespace Parser {
 bool pushed_back = false;
